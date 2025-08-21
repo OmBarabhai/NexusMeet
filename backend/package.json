@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "prod": "pm2 src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmBarabhai/NexusMeet.git"
+  },
+  "author": "OmBarabhai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmBarabhai/NexusMeet/issues"
+  },
+  "homepage": "https://github.com/OmBarabhai/NexusMeet#readme",
+  "description": "NexusMeet is a modern Zoom clone built with the MERN stack. It features a collaborative whiteboard for team brainstorming and live chat sentiment analysis, providing a deeper layer of communication. The platform is built using WebRTC for video streams and Socket.IO for seamless, real-time functionality.",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0",
+    "mongoose": "^8.17.2",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  }
+}
