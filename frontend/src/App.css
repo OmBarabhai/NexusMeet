@@ -1,0 +1,102 @@
+.landingPageContainer {
+  width: 100vw;
+  height: 100vh;
+  background: url("/background.png") center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+.landingPageContainer nav {
+  padding: 1.6rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landingPageContainer nav h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.landingPageContainer nav .navList {
+  display: flex;
+  gap: 1.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.landingPageContainer nav .navList li {
+  list-style: none;
+  transition: color 0.3s ease;
+}
+
+.landingPageContainer nav .navList li:hover {
+  color: #ffb84d;
+}
+
+/* Main Section */
+.landingMainContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.landingMainContainer > div:nth-child(1) {
+  font-size: 2rem; /* slightly reduced for balance */
+  line-height: 1.4;
+  max-width: 45%;
+}
+
+/* CTA Button */
+.landingMainContainer > div:nth-child(1) div[role='button'] {
+  background: #d97500;
+  width: fit-content;
+  padding: 0.6rem 1.4rem; /* reduced padding */
+  border-radius: 12px;     /* smaller radius */
+  margin-top: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* subtle depth */
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button']:hover {
+  background: #ff8c1a;
+  transform: scale(1.05); /* subtle grow effect */
+}
+
+.landingMainContainer > div:nth-child(1) div[role='button'] a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;  /* balanced size */
+  font-weight: 600;
+}
+
+/* Hero Image */
+.landingMainContainer > div:nth-child(2) img {
+  height: 75vh; /* slightly reduced */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .landingMainContainer {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .landingMainContainer > div:nth-child(1) {
+    max-width: 100%;
+  }
+
+  .landingMainContainer > div:nth-child(2) img {
+    height: 50vh;
+    margin-top: 2rem;
+  }
+}
