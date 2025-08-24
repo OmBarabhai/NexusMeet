@@ -36,5 +36,5 @@ Built with **React (frontend)** and **Node.js/Express (backend)**, NexusMeet pro
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/your-username/NexusMeet.git
+git clone https://github.com/OmBarabhai/NexusMeet.git
 cd NexusMeet
