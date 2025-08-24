@@ -25,7 +25,7 @@ export default function LandingPage() {
           </h1>
           <p>Cover a distance by NEXUSMEET video call</p>
           <div role="button">
-            <Link to={"/home"} className="getStartedBtn">Get Started</Link>
+            <Link to={"/auth"} className="getStartedBtn">Get Started</Link>
           </div>
         </div>
 

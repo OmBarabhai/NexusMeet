@@ -14,9 +14,9 @@ const login = async (req, res) => {
     if (!user) { // 3. This check now works correctly with findOne()
       return res.status(httpStatus.NOT_FOUND).json({ message: "User Not Found" });
     }
-
+let isPasswordCorrect = await bcrypt.compare(password, user.password)
     // 4. Added 'await' to bcrypt.compare
-    if (await bcrypt.compare(password, user.password)) {
+    if (isPasswordCorrect) {
       let token = crypto.randomBytes(20).toString("hex");
 
       user.token = token;
@@ -24,7 +24,7 @@ const login = async (req, res) => {
       return res.status(httpStatus.OK).json({ token: token });
     } else {
       // 5. Added an 'else' block for failed password comparison
-      return res.status(httpStatus.UNAUTHORIZED).json({ message: "Invalid credentials" });
+      return res.status(httpStatus.UNAUTHORIZED).json({ message: "Invalid Username & Password" });
     }
   } catch (e) {
     // 6. Improved error message

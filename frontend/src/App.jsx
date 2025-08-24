@@ -1,15 +1,25 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LandingPage from './pages/landing';
+import Authentication from './pages/authentication';
+import { AuthProvider } from './context/authContext';
 
 
 function App() {
   return (
-    <Router>
+    <div className="app">
+
+      <Router>
+        <AuthProvider>
+
       <Routes>
         <Route path='/' element={<LandingPage />} />
-      </Routes>
+        <Route path='/auth' element={<Authentication />}/>
+          </Routes>
+        </AuthProvider>
+          
     </Router>
+    </div>
   );
 }
 
