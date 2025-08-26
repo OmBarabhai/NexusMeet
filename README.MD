@@ -1,4 +1,4 @@
-# NexusMeet
+# NexusMeet — Professional README
 
 **A collaborative, proctor-aware meeting platform for education**
 
@@ -22,19 +22,35 @@ The long-term goal is to extend NexusMeet into a classroom/lab management platfo
 ## Key Features
 
 ---
-## Demo (click a thumbnail to view)
+## 📸 Preview  
+---
 
-[![Landing demo thumbnail](./ReadmeIMG/landing_thumb.png)](./ReadmeIMG/landing_demo_short.mp4)
-[![Login demo thumbnail](./ReadmeIMG/login_thumb.png)](./ReadmeIMG/login_demo.mp4)
-[![MVP demo thumbnail](./ReadmeIMG/mvp_thumb.png)](./ReadmeIMG/mvp_functionality.mp4)
+![Landing Page](./ReadmeIMG/landingpg.png)  
+---
+---
+![SignIn Page](./ReadmeIMG/SignIn.png)  
+---
+---
+![SignUp Page](./ReadmeIMG/SignUp.png)  
+---
+---
 
-*Click the thumbnails to view the full demo videos (opens in a new tab or downloads depending on browser).*
+![Join Page](./ReadmeIMG/JoinPg.png)
+---
+---
 
-### Demos (click to view/download)
-- Landing (short): [./ReadmeIMG/landing_demo_short.mp4](./ReadmeIMG/landing_demo_short.mp4)
-- Landing (full): [./ReadmeIMG/landing_demo_full.mp4](./ReadmeIMG/landing_demo_full.mp4)
-- Login flow: [./ReadmeIMG/login_demo.mp4](./ReadmeIMG/login_demo.mp4)
-- MVP features: [./ReadmeIMG/mvp_functionality.mp4](./ReadmeIMG/mvp_functionality.mp4)
+![Screen Share Page](./ReadmeIMG/ScreenShare.png)
+---
+---
+![User1Join Page](./ReadmeIMG/User1Join.png)  
+---
+
+👉 Watch it in action:  
+- [Landing Demo](./ReadmeIMG/Landing.mp4)  
+
+- [Landing Page Demo](./ReadmeIMG/landingpg.mp4)  
+- [Login Page Demo](./ReadmeIMG/Loginpg.mp4)
+- [Login Page Demo](./ReadmeIMG/MVPfunctionality.mp4)  
 
 ---
 
