@@ -1,4 +1,4 @@
-# NexusMeet — Professional README
+# NexusMeet
 
 **A collaborative, proctor-aware meeting platform for education**
 
