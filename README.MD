@@ -7,7 +7,9 @@ Built with **React (frontend)** and **Node.js/Express (backend)**, NexusMeet pro
 
 ## 📸 Preview  
 ![Landing Page](./ReadmeIMG/landingpg.png)  
-![Login Page](./ReadmeIMG/loginpg.png)  
+![SignIn Page](./ReadmeIMG/SignIn.png)  
+![SignUp Page](./ReadmeIMG/SignUp.png)  
+
 
 👉 Watch it in action:  
 - [Landing Page Demo](./ReadmeIMG/landingpg.mp4)  
