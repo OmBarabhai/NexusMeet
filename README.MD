@@ -22,15 +22,19 @@ The long-term goal is to extend NexusMeet into a classroom/lab management platfo
 ## Key Features
 
 ---
-## 📸 Preview  
-![Landing Page](./ReadmeIMG/landingpg.png)  
-![SignIn Page](./ReadmeIMG/SignIn.png)  
-![SignUp Page](./ReadmeIMG/SignUp.png)  
+## Demo (click a thumbnail to view)
 
-👉 Watch it in action:  
-- [Landing Page Demo](./ReadmeIMG/landingpg.mp4)  
-- [Login Page Demo](./ReadmeIMG/Loginpg.mp4)
-- [Login Page Demo](./ReadmeIMG/MVPfunctionality.mp4)  
+[![Landing demo thumbnail](./ReadmeIMG/landing_thumb.png)](./ReadmeIMG/landing_demo_short.mp4)
+[![Login demo thumbnail](./ReadmeIMG/login_thumb.png)](./ReadmeIMG/login_demo.mp4)
+[![MVP demo thumbnail](./ReadmeIMG/mvp_thumb.png)](./ReadmeIMG/mvp_functionality.mp4)
+
+*Click the thumbnails to view the full demo videos (opens in a new tab or downloads depending on browser).*
+
+### Demos (click to view/download)
+- Landing (short): [./ReadmeIMG/landing_demo_short.mp4](./ReadmeIMG/landing_demo_short.mp4)
+- Landing (full): [./ReadmeIMG/landing_demo_full.mp4](./ReadmeIMG/landing_demo_full.mp4)
+- Login flow: [./ReadmeIMG/login_demo.mp4](./ReadmeIMG/login_demo.mp4)
+- MVP features: [./ReadmeIMG/mvp_functionality.mp4](./ReadmeIMG/mvp_functionality.mp4)
 
 ---
 
