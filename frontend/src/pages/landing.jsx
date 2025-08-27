@@ -7,7 +7,7 @@ export default function LandingPage() {
     <div className="landingPageContainer">
       <nav>
         <div className="navHeader">
-          <h2>NEXUSMEET Video Call</h2>
+          <h2>NEXUS Video MEET</h2>
         </div>
         <div className="navList">
           <Link to="/guest">Join as Guest</Link>
