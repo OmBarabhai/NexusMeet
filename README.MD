@@ -148,15 +148,15 @@ TURN_SERVER_URL=...
 
 ## Suggested API Endpoints (overview)
 
-* `POST /api/v1/users/register` — register
-* `POST /api/v1/users/login` — login
-* `GET /api/v1/users/me` — current user
-* `POST /api/v1/meetings` — create meeting (teacher/admin)
-* `GET /api/v1/meetings/:id` — meeting metadata
-* `POST /api/v1/meetings/:id/tasks` — create assignment/task
-* `GET /api/v1/meetings/:id/attendance` — attendance report
-* `POST /api/v1/monitor/request` — instructor requests screen view (creates consent ticket)
-* `POST /api/v1/monitor/consent` — student grants/denies consent
+* `POST /api/v1/users/register` - register
+* `POST /api/v1/users/login` - login
+* `GET /api/v1/users/me` - current user
+* `POST /api/v1/meetings` - create meeting (teacher/admin)
+* `GET /api/v1/meetings/:id` - meeting metadata
+* `POST /api/v1/meetings/:id/tasks` - create assignment/task
+* `GET /api/v1/meetings/:id/attendance` - attendance report
+* `POST /api/v1/monitor/request` - instructor requests screen view (creates consent ticket)
+* `POST /api/v1/monitor/consent` - student grants/denies consent
 
 ---
 
