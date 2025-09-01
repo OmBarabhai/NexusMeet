@@ -171,13 +171,13 @@ TURN_SERVER_URL=...
 
 ## UX Notes & Wireframe Hints
 
-* Instructor dashboard: split view — left column participants list + activity, right column meeting preview and task panel.
+* Instructor dashboard: split view - left column participants list + activity, right column meeting preview and task panel.
 * Monitor Mode: show a small confirmation overlay explaining privacy and scope before enabling a view.
 * Notifications: real-time small toasts for consent requests, new tasks, and raised hands.
 
 ---
 
-## Future Scope — "Comsy" Integration & Roadmap
+## Future Scope - "Comsy" Integration & Roadmap
 
 1. **Comsy-style Lab Management**
 
