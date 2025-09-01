@@ -88,7 +88,7 @@ The long-term goal is to extend NexusMeet into a classroom/lab management platfo
 * **Media (WebRTC)**: Peer-to-peer video/audio + selective screen-sharing streams.
 * **DB (MongoDB)**: Users, meetings, sessions, tasks, logs, analytics.
 
-> The design prioritizes minimal central storage of media — only metadata and session audit logs are stored. Screen view streams are ephemeral and peer-to-peer or relayed through TURN only when necessary.
+> The design prioritizes minimal central storage of media - only metadata and session audit logs are stored. Screen view streams are ephemeral and peer-to-peer or relayed through TURN only when necessary.
 
 ---
 
