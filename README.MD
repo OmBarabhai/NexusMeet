@@ -68,7 +68,7 @@ The long-term goal is to extend NexusMeet into a classroom/lab management platfo
 * **Screen View (Monitor Mode)**: Professors can request view-only access to a student’s screen during labs (opt-in, encrypted stream) for quick checks and demonstrations.
 * **Task / Assignment Tracking**: Teachers can assign in-meeting tasks and see per-student completion status in real time.
 * **Attendance & Activity Logs**: Automated attendance with session durations and activity markers (e.g., camera on/off, mic on/off, focus/blur events).
-* **Issue Reporting & Ticketing**: Students can flag problems (network, environment, code errors) — tickets are visible to lab admins.
+* **Issue Reporting & Ticketing**: Students can flag problems (network, environment, code errors) - tickets are visible to lab admins.
 
 ---
 
